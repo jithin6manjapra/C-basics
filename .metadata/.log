@@ -15,3 +15,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-07-22 15:04:32.130
 !MESSAGE Indexed 'Sample1' (1 sources, 20 headers) in 0.992 sec: 2,185 declarations; 2,833 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-07-22 16:39:03.305
+!MESSAGE Indexed 'sample2' (1 sources, 20 headers) in 0.288 sec: 2,185 declarations; 2,833 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
