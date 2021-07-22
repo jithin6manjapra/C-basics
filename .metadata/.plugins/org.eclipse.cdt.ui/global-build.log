@@ -1,0 +1,67 @@
+15:05:30 **** Rebuild of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+gcc -o Sample1.exe "src\\Sample1.o" 
+Info: Nothing to build for Sample1
+15:54:05 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+gcc -o Sample1.exe "src\\Sample1.o" 
+16:10:56 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+..\src\Sample1.c: In function 'main':
+..\src\Sample1.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",num1);
+         ~^  ~~~~
+..\src\Sample1.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\Sample1.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",num2);
+         ~^  ~~~~
+..\src\Sample1.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\Sample1.c:17:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",num1);
+  ^~~~~~~~~~~~~~~~
+..\src\Sample1.c:19:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",num2);
+  ^~~~~~~~~~~~~~~~
+gcc -o Sample1.exe "src\\Sample1.o" 
+16:13:26 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+gcc -o Sample1.exe "src\\Sample1.o" 
+16:15:30 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+gcc -o Sample1.exe "src\\Sample1.o" 
+Info: Nothing to build for Sample1
+16:19:57 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+..\src\Sample1.c: In function 'main':
+..\src\Sample1.c:18:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d%d",&num1,num2);
+           ~^        ~~~~
+..\src\Sample1.c:18:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+..\src\Sample1.c:18:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d%d",&num1,num2);
+  ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Sample1.exe "src\\Sample1.o" 
+16:20:16 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+gcc -o Sample1.exe "src\\Sample1.o" 
+Info: Nothing to build for Sample1
+16:21:44 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+gcc -o Sample1.exe "src\\Sample1.o" 
+16:22:13 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+gcc -o Sample1.exe "src\\Sample1.o" 
+16:27:41 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample1.o" "..\\src\\Sample1.c" 
+gcc -o Sample1.exe "src\\Sample1.o" 
+Info: Nothing to build for Sample1
