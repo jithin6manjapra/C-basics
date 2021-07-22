@@ -1,9 +1,60 @@
-19:37:20 **** Rebuild of configuration Debug for project pattern ****
+11:12:03 **** Rebuild of configuration Debug for project array ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern.o" "..\\src\\pattern.c" 
-gcc -o pattern.exe "src\\pattern.o" 
-Info: Nothing to build for pattern
-19:39:25 **** Incremental Build of configuration Debug for project pattern ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+gcc -o array.exe "src\\array.o" 
+Info: Nothing to build for array
+11:15:53 **** Incremental Build of configuration Debug for project array ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern.o" "..\\src\\pattern.c" 
-gcc -o pattern.exe "src\\pattern.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+..\src\array.c: In function 'main':
+..\src\array.c:15:6: error: array size missing in 'a'
+  int a[];
+      ^
+..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+  scanf("%d,&n");
+         ~^
+..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+11:16:05 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+..\src\array.c: In function 'main':
+..\src\array.c:15:6: error: array size missing in 'a'
+  int a[];
+      ^
+..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+  scanf("%d,&n");
+         ~^
+..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+11:16:47 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+..\src\array.c: In function 'main':
+..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+  scanf("%d,&n");
+         ~^
+..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+..\src\array.c:19:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  for(i=0;i<=n;i++)
+  ^~~
+gcc -o array.exe "src\\array.o" 
+11:17:09 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+..\src\array.c: In function 'main':
+..\src\array.c:19:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+  scanf("%d,&n");
+         ~^
+..\src\array.c:19:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+..\src\array.c:20:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  for(i=0;i<=n;i++)
+  ^~~
+gcc -o array.exe "src\\array.o" 
+Info: Nothing to build for array
+11:19:29 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+gcc -o array.exe "src\\array.o" 
+11:19:48 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+gcc -o array.exe "src\\array.o" 
