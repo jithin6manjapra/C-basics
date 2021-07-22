@@ -1,22 +1,9 @@
-19:04:47 **** Rebuild of configuration Debug for project prime ****
+19:37:20 **** Rebuild of configuration Debug for project pattern ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prime.o" "..\\src\\prime.c" 
-gcc -o prime.exe "src\\prime.o" 
-Info: Nothing to build for prime
-19:05:53 **** Incremental Build of configuration Debug for project prime ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern.o" "..\\src\\pattern.c" 
+gcc -o pattern.exe "src\\pattern.o" 
+Info: Nothing to build for pattern
+19:39:25 **** Incremental Build of configuration Debug for project pattern ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prime.o" "..\\src\\prime.c" 
-..\src\prime.c: In function 'main':
-..\src\prime.c:16:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '==' token
-  int f==0;
-       ^~
-..\src\prime.c:16:7: error: expected expression before '==' token
-19:10:22 **** Incremental Build of configuration Debug for project prime ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prime.o" "..\\src\\prime.c" 
-gcc -o prime.exe "src\\prime.o" 
-Info: Nothing to build for prime
-19:11:06 **** Incremental Build of configuration Debug for project prime ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prime.o" "..\\src\\prime.c" 
-gcc -o prime.exe "src\\prime.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern.o" "..\\src\\pattern.c" 
+gcc -o pattern.exe "src\\pattern.o" 
