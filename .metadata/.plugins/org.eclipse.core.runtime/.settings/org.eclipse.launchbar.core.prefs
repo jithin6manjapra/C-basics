@@ -1,10 +1,11 @@
 LaunchTargetManager/configs/Sample1.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/negative_positive.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/sample2.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/switch.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Sample1.exe,org.eclipse.launchbar.core.descriptorType.default\:sample2.exe,org.eclipse.launchbar.core.descriptorType.default\:negative_positive.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Sample1.exe,org.eclipse.launchbar.core.descriptorType.default\:sample2.exe,org.eclipse.launchbar.core.descriptorType.default\:negative_positive.exe,org.eclipse.launchbar.core.descriptorType.default\:switch.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Sample1.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Sample1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,10 +1,8 @@
-17:57:37 **** Rebuild of configuration Debug for project negative&positive ****
+18:18:28 **** Rebuild of configuration Debug for project switch ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\negative&positive.o" "..\\src\\negative&positive.c" 
-gcc -o negative&positive.exe "src\\negative&positive.o" 
-Info: Nothing to build for negative&positive
-18:01:21 **** Incremental Build of configuration Debug for project negative&positive ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\negative&positive.o" "..\\src\\negative&positive.c" 
-gcc -o negative&positive.exe "src\\negative&positive.o" 
-Info: Nothing to build for negative&positive
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+gcc -o switch.exe "src\\switch.o" 
+Info: Nothing to build for switch
+Info: Nothing to build for switch
+Info: Nothing to build for switch
+Info: Nothing to build for switch
