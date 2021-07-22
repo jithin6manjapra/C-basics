@@ -1,8 +1,50 @@
-18:18:28 **** Rebuild of configuration Debug for project switch ****
+18:39:54 **** Rebuild of configuration Debug for project while loop ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
-gcc -o switch.exe "src\\switch.o" 
-Info: Nothing to build for switch
-Info: Nothing to build for switch
-Info: Nothing to build for switch
-Info: Nothing to build for switch
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+gcc -o "while loop.exe" "src\\while loop.o" 
+Info: Nothing to build for while loop
+18:41:32 **** Incremental Build of configuration Debug for project while loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+..\src\while loop.c: In function 'main':
+..\src\while loop.c:18:10: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   printf(i);
+          ^
+In file included from ..\src\while loop.c:11:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h:509:48: note: expected 'const char * restrict' but argument is of type 'int'
+   int __cdecl printf(const char * __restrict__ _Format,...);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+gcc -o "while loop.exe" "src\\while loop.o" 
+18:42:56 **** Incremental Build of configuration Debug for project while loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+..\src\while loop.c: In function 'main':
+..\src\while loop.c:18:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("output",i);
+          ^~~~~~~~
+..\src\while loop.c:18:10: warning: too many arguments for format [-Wformat-extra-args]
+gcc -o "while loop.exe" "src\\while loop.o" 
+18:43:29 **** Incremental Build of configuration Debug for project while loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+gcc -o "while loop.exe" "src\\while loop.o" 
+18:43:53 **** Incremental Build of configuration Debug for project while loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+gcc -o "while loop.exe" "src\\while loop.o" 
+18:44:06 **** Incremental Build of configuration Debug for project while loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+gcc -o "while loop.exe" "src\\while loop.o" 
+18:44:17 **** Incremental Build of configuration Debug for project while loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+gcc -o "while loop.exe" "src\\while loop.o" 
+18:44:40 **** Incremental Build of configuration Debug for project while loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+gcc -o "while loop.exe" "src\\while loop.o" 
+18:45:15 **** Incremental Build of configuration Debug for project while loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\while loop.o" "..\\src\\while loop.c" 
+gcc -o "while loop.exe" "src\\while loop.o" 
