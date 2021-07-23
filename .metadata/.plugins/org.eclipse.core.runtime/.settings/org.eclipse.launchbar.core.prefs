@@ -1,6 +1,7 @@
 LaunchTargetManager/configs/Matrix.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/Sample1.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/array.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/function_type1.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/negative_positive.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/pattern.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/prime.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -10,7 +11,7 @@ LaunchTargetManager/configs/while\ loop.exe=org.eclipse.launchbar.core.launchTar
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Sample1.exe,org.eclipse.launchbar.core.descriptorType.default\:sample2.exe,org.eclipse.launchbar.core.descriptorType.default\:negative_positive.exe,org.eclipse.launchbar.core.descriptorType.default\:switch.exe,org.eclipse.launchbar.core.descriptorType.default\:while loop.exe,org.eclipse.launchbar.core.descriptorType.default\:prime.exe,org.eclipse.launchbar.core.descriptorType.default\:pattern.exe,org.eclipse.launchbar.core.descriptorType.default\:array.exe,org.eclipse.launchbar.core.descriptorType.default\:Matrix.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Sample1.exe,org.eclipse.launchbar.core.descriptorType.default\:sample2.exe,org.eclipse.launchbar.core.descriptorType.default\:negative_positive.exe,org.eclipse.launchbar.core.descriptorType.default\:switch.exe,org.eclipse.launchbar.core.descriptorType.default\:while loop.exe,org.eclipse.launchbar.core.descriptorType.default\:prime.exe,org.eclipse.launchbar.core.descriptorType.default\:pattern.exe,org.eclipse.launchbar.core.descriptorType.default\:array.exe,org.eclipse.launchbar.core.descriptorType.default\:Matrix.exe,org.eclipse.launchbar.core.descriptorType.default\:function_type1.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Sample1.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Sample1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
