@@ -1,30 +1,10 @@
-13:25:11 **** Rebuild of configuration Debug for project function type2 ****
+13:48:58 **** Incremental Build of configuration Debug for project function_type3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function type2.o" "..\\src\\function type2.c" 
-gcc -o "function type2.exe" "src\\function type2.o" 
-13:25:31 **** Incremental Build of configuration Debug for project function type2 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function_type3.o" "..\\src\\function_type3.c" 
+gcc -o function_type3.exe "src\\function_type3.o" 
+Info: Nothing to build for function_type3
+Info: Nothing to build for function_type3
+13:49:40 **** Incremental Build of configuration Debug for project function_type3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function type2.o" "..\\src\\function type2.c" 
-gcc -o "function type2.exe" "src\\function type2.o" 
-13:28:57 **** Incremental Build of configuration Debug for project function type2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function type2.o" "..\\src\\function type2.c" 
-..\src\function type2.c: In function 'main':
-..\src\function type2.c:24:2: error: called object 'sum' is not a function or function pointer
-  sum(num1,num2);
-  ^~~
-..\src\function type2.c:18:7: note: declared here
-   int sum=0;
-       ^~~
-..\src\function type2.c: In function 'sum':
-..\src\function type2.c:31:6: error: lvalue required as left operand of assignment
-   sum=num1+num2;
-      ^
-..\src\function type2.c:32:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)(int,  int)' [-Wformat=]
-   printf("sum=%d",sum);
-               ~^  ~~~
-..\src\function type2.c:32:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)(int,  int)' [-Wformat=]
-13:30:01 **** Incremental Build of configuration Debug for project function type2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function type2.o" "..\\src\\function type2.c" 
-gcc -o "function type2.exe" "src\\function type2.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function_type3.o" "..\\src\\function_type3.c" 
+gcc -o function_type3.exe "src\\function_type3.o" 
