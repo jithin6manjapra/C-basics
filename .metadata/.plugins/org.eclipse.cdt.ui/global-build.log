@@ -1,80 +1,142 @@
-11:12:03 **** Rebuild of configuration Debug for project array ****
+12:16:12 **** Rebuild of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-gcc -o array.exe "src\\array.o" 
-Info: Nothing to build for array
-11:15:53 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+Info: Nothing to build for Matrix
+12:22:25 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-..\src\array.c: In function 'main':
-..\src\array.c:15:6: error: array size missing in 'a'
-  int a[];
-      ^
-..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
-  scanf("%d,&n");
-         ~^
-..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
-11:16:05 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+..\src\Matrix.c: In function 'main':
+..\src\Matrix.c:27:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+     scanf("%d%d",mat[row][col]);
+            ~^    ~~~~~~~~~~~~~
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+     scanf("%d%d",mat[row][col]);
+              ~^
+..\src\Matrix.c:27:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+     scanf("%d%d",mat[row][col]);
+            ~^    ~~~~~~~~~~~~~
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+     scanf("%d%d",mat[row][col]);
+              ~^
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+      printf("%d%d\t",mat[row][col]);
+                ~^
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+..\src\Matrix.c:15:8: warning: variable 'j' set but not used [-Wunused-but-set-variable]
+  int i,j,row,col;
+        ^
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:23:03 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-..\src\array.c: In function 'main':
-..\src\array.c:15:6: error: array size missing in 'a'
-  int a[];
-      ^
-..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
-  scanf("%d,&n");
-         ~^
-..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
-11:16:47 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+..\src\Matrix.c: In function 'main':
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+     scanf("%d%d",&mat[row][col]);
+              ~^
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+      printf("%d%d\t",mat[row][col]);
+                ~^
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+..\src\Matrix.c:15:8: warning: variable 'j' set but not used [-Wunused-but-set-variable]
+  int i,j,row,col;
+        ^
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:23:16 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-..\src\array.c: In function 'main':
-..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
-  scanf("%d,&n");
-         ~^
-..\src\array.c:18:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
-..\src\array.c:19:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
-  for(i=0;i<=n;i++)
-  ^~~
-gcc -o array.exe "src\\array.o" 
-11:17:09 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+..\src\Matrix.c: In function 'main':
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+     scanf("%d%d",&mat[row][col]);
+              ~^
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+      printf("%d%d\t",mat[row][col]);
+                ~^
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+..\src\Matrix.c:15:8: warning: variable 'j' set but not used [-Wunused-but-set-variable]
+  int i,j,row,col;
+        ^
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:24:22 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-..\src\array.c: In function 'main':
-..\src\array.c:19:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
-  scanf("%d,&n");
-         ~^
-..\src\array.c:19:10: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
-..\src\array.c:20:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
-  for(i=0;i<=n;i++)
-  ^~~
-gcc -o array.exe "src\\array.o" 
-Info: Nothing to build for array
-11:19:29 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+..\src\Matrix.c: In function 'main':
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+     scanf("%d%d",&mat[row][col]);
+              ~^
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+      printf("%d%d\t",mat[row][col]);
+                ~^
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:25:12 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-gcc -o array.exe "src\\array.o" 
-11:19:48 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+..\src\Matrix.c: In function 'main':
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+     scanf("%d%d",&mat[i][j]);
+              ~^
+..\src\Matrix.c:27:15: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+      printf("%d%d\t",mat[i][j]);
+                ~^
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:26:52 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-gcc -o array.exe "src\\array.o" 
-11:37:20 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+..\src\Matrix.c: In function 'main':
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+      printf("%d%d\t",mat[i][j]);
+                ~^
+..\src\Matrix.c:34:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:27:00 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-gcc -o array.exe "src\\array.o" 
-11:38:15 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+Info: Nothing to build for Matrix
+12:30:28 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-gcc -o array.exe "src\\array.o" 
-11:38:31 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:30:37 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-gcc -o array.exe "src\\array.o" 
-11:39:51 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:32:05 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-gcc -o array.exe "src\\array.o" 
-11:43:35 **** Incremental Build of configuration Debug for project array ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:33:15 **** Incremental Build of configuration Debug for project Matrix ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
-gcc -o array.exe "src\\array.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:35:22 **** Incremental Build of configuration Debug for project Matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:36:38 **** Incremental Build of configuration Debug for project Matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:38:54 **** Incremental Build of configuration Debug for project Matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:41:16 **** Incremental Build of configuration Debug for project Matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+Info: Nothing to build for Matrix
+12:42:13 **** Incremental Build of configuration Debug for project Matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
+12:42:58 **** Incremental Build of configuration Debug for project Matrix ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Matrix.o" "..\\src\\Matrix.c" 
+gcc -o Matrix.exe "src\\Matrix.o" 
