@@ -58,3 +58,23 @@ gcc -o array.exe "src\\array.o"
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
 gcc -o array.exe "src\\array.o" 
+11:37:20 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+gcc -o array.exe "src\\array.o" 
+11:38:15 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+gcc -o array.exe "src\\array.o" 
+11:38:31 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+gcc -o array.exe "src\\array.o" 
+11:39:51 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+gcc -o array.exe "src\\array.o" 
+11:43:35 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+gcc -o array.exe "src\\array.o" 
