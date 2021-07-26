@@ -1,10 +1,5 @@
-13:48:58 **** Incremental Build of configuration Debug for project function_type3 ****
+13:57:00 **** Rebuild of configuration Debug for project function4 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function_type3.o" "..\\src\\function_type3.c" 
-gcc -o function_type3.exe "src\\function_type3.o" 
-Info: Nothing to build for function_type3
-Info: Nothing to build for function_type3
-13:49:40 **** Incremental Build of configuration Debug for project function_type3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function_type3.o" "..\\src\\function_type3.c" 
-gcc -o function_type3.exe "src\\function_type3.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\function4.o" "..\\src\\function4.c" 
+gcc -o function4.exe "src\\function4.o" 
+Info: Nothing to build for function4
